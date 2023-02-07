@@ -83,7 +83,7 @@ def registration():
 
 @app.route("/download")
 def download():
-    path = "Sonnet.txt"
+    path = "Limerick.txt"
     return send_file(path, as_attachment=True)
 
 def getNumberOfWords(file):
